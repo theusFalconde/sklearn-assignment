@@ -28,7 +28,7 @@ O texto pode ser escrito em um "Jupyter Notebook" juntamente com o código. Ou q
 
 Foi realizado a implementação seguindo todos os passos solicitados na descrição da atividade e os resultados, utilizando a divisão de ``30%`` do dataset para o treino dos algoritmos e os resultados obtidos foram os seguintes:
 
-##### Utilizando MultinomialNB
+### Utilizando MultinomialNB
 
 Com o algoritimo ``MultinomialNB``, obtivemos a seguinte matriz de confusão:
 
@@ -63,7 +63,7 @@ A matriz de reports da classificação foi a seguinte:
 
 ---
 
-##### Utilizando SGDClassifier
+### Utilizando SGDClassifier
 
 Com o algoritimo ``SGDClassifier``, obtivemos a seguinte matriz de confusão:
 
@@ -97,6 +97,8 @@ A matriz de reports da classificação foi a seguinte:
 > E a média do resultado do ``Predict`` com o ``y_test`` foi de  : **0.8616666666666667**
 
 ---
+
+### Conclusões
 
 Com os resultados demonstrados acima, podemos identificar que o ``GridSearchCV`` escolheu parâmetros diferentes para cada algoritmo e também nos retornou resultados diferentes. O melhor resultado obtido foi utilizando o algoritmo ``SGDClassifier``, que nos retornou a média de acerto de: ``86%``, comparado com ``85%`` do algoritmo ``MultinomialNB``.
 
