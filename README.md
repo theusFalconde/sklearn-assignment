@@ -59,7 +59,7 @@ A matriz de reports da classificação foi a seguinte:
 | **Macro AVG**    | 0.85       | 0.85    | 0.85      | 600      |
 | **Weighted AVG** | 0.85       | 0.85    | 0.85      | 600      |
 
-> E a média do resultado do ``Predict`` com o ``y_test`` foi de  : **0.8516666666666667**
+> E a média do resultado do ``Predict`` com o ``y_test`` foi de  : **``0.8516666666666667``**
 
 ---
 
@@ -94,7 +94,7 @@ A matriz de reports da classificação foi a seguinte:
 | **Macro AVG**    | 0.86       | 0.86    | 0.86      | 600      |
 | **Weighted AVG** | 0.86       | 0.86    | 0.86      | 600      |
 
-> E a média do resultado do ``Predict`` com o ``y_test`` foi de  : **0.8616666666666667**
+> E a média do resultado do ``Predict`` com o ``y_test`` foi de  : **``0.8616666666666667``**
 
 ---
 
@@ -102,7 +102,7 @@ A matriz de reports da classificação foi a seguinte:
 
 Com os resultados demonstrados acima, podemos identificar que o ``GridSearchCV`` escolheu parâmetros diferentes para cada algoritmo e também nos retornou resultados diferentes. O melhor resultado obtido foi utilizando o algoritmo ``SGDClassifier``, que nos retornou a média de acerto de: ``86%``, comparado com ``85%`` do algoritmo ``MultinomialNB``.
 
-Os dois algoritmos nos retornaram bons resultados, e podemos observar que a diferença entre os dois é muito pequena.
+Os dois algoritmos nos retornaram bons resultados, e podemos observar que a diferença entre os dois é muito pequena, tendo apenas ``1%`` de diferença entre os dois algoritmos com os parâmetros utilizados.
 
 
 
